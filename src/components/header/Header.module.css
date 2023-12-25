@@ -1,0 +1,38 @@
+/*
+You do not need to worry about the style use to be colliding with
+other '.module.css' files! 
+ */
+
+.header {
+    padding: 0.2rem;
+    color: #fff;
+    background-color: #333;
+}
+.nav {
+    max-width: 42rem;
+    margin: 1.5rem auto;
+}
+.listContainer {
+    display: flex;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.listItem {
+    margin-right: 1rem;
+    padding-right: 1rem;
+}
+.listItem:nth-child(3) {
+    margin-right: auto;
+}
+.link {
+    color: #fff;
+    text-decoration: none;
+}
+.button {
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
